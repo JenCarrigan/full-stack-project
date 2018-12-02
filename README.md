@@ -1,40 +1,24 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Full-Stack Project
 
-### Author: Student/Group Name
+### Author: Jen Carrigan
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [deployed site](http://xyz.com)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+* [back-end repo](https://github.com/JenCarrigan/basic-express-server)
+* [front-end repo](https://github.com/JenCarrigan/basic-react-app)
+* [deployed site](http://carriganfullstackproject-carriganfullstack-16b0nxzf9zde6.s3-website-us-east-1.amazonaws.com/)
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns a message of Server Home.
+* Endpoint: `/content`
+  * Returns content parsed from the deployed back-end.
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* Tests were written for the back end express server. Two separate tests were written for 404 and 500 errors, and two other tests for the home page and the `/content` route.
 
 #### UML
-Link to an image of the UML for your application and response to events
+* ![UML](https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/FullStackUML.jpg)
